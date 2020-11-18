@@ -7,8 +7,6 @@ void setup()
   pinMode(led,OUTPUT);
   pinMode(Proxsensor,INPUT);
   Serial.begin(9600);
-  
-  // put your setup code here, to run once:
 
 }
 
@@ -20,7 +18,7 @@ void loop()
     digitalWrite(13,HIGH);
    
   }
-  // put your main code here, to run repeatedly:
+  
  else
  {
   digitalWrite(8,HIGH);
